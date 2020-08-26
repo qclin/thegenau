@@ -1,0 +1,36 @@
+.genau-studio {
+    font-family: "SFProDisplay-Bold";
+    font-size: 19px;
+    color: var(--white-two);
+}
+
+.apps h5{
+    font-family: "SFProDisplay-Bold";
+    font-size: 15px;
+    line-height: 1.93;
+    letter-spacing: 0.6px;
+}
+
+.apps span{
+    opacity: 0.6;
+    font-family: "SFProDisplay-Light";
+    font-size: 13px;
+    line-height: 1.31;
+    letter-spacing: 0.52px;
+    color: #fff;
+}
+
+h1{
+    font-family: "SFProDisplay-Heavy";
+    line-height: 1.01;
+    letter-spacing: 1.21px;
+    color: #fff;
+    font-size: 78px;
+}
+
+p#contact, a{
+    font-family: "SFProDisplay-Light";
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: 0.8px;
+}
