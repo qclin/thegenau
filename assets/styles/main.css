@@ -92,6 +92,7 @@ div#app-store-wrapper{
   margin-top: 1rem;
 }
 .app-store-icon{
-  height: 50px;
-  margin-right: 2rem;
+  height: 30px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
