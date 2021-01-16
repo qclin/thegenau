@@ -28,11 +28,37 @@ h1{
     font-size: 2.5rem
 }
 
+h1.page{
+    color: black;
+    max-width: 600px;
+}
 p#contact, a{
     font-family: "SFProDisplay-Light";
     font-size: 1.125rem;
     line-height: 1.61;
     letter-spacing: 0.72px;
+}
+
+.email{
+    font-family: "SFProDisplay-Bold";
+    font-size: 1.125rem;
+    line-height: 1.61;
+    letter-spacing: 0.8px;
+}
+
+.measure{
+    max-width: 600px;
+    font-family: "SFProDisplay-Light";
+    font-size: 1.125rem;
+    line-height: 1.61;
+    letter-spacing: 0.8px;
+}
+
+footer{
+    font-family:  "SFProDisplay-Bold";
+    font-size: 15px;
+    line-height: 1.93;
+    letter-spacing: 0.6px;
 }
 
 @media (min-width: 768px) {

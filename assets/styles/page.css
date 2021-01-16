@@ -1,0 +1,37 @@
+@import "./font.css";
+@import "./typography.css";
+
+
+body{
+  margin: 3rem 2.5rem 8rem;
+  height:calc(100vh - 11rem);
+  display:flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top:auto;
+}
+
+#mark{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 1.5rem 0;
+  background: #000;
+}
+
+/* large screen  */
+@media (min-width: 768px) {
+  body{
+    height:calc(100vh - 13rem);
+    margin: 9rem 8rem 0 8rem;
+  }
+  .desktop{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+}
