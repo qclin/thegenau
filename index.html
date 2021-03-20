@@ -31,6 +31,7 @@
       gtag("config", "G-T8LRSGJC9Z");
     </script>
     <script>
+      var campaignUrlSuffix = "?utm_source=genau-landing&utm_medium=genau-landing&utm_campaign=genau-landing"
       function openAppStore(path) {
         var url;
         var host = "apps.apple.com/app/";
@@ -39,6 +40,7 @@
         } else {
           url = "https://" + host + path;
         }
+        url += campaignUrlSuffix
         var win = window.open(url, "_blank");
         win.focus();
       }
@@ -76,17 +78,17 @@
             />
           </button>
           <div>
-            <h5>Note Circle</h5>
+            <h5>NoteCircle</h5>
             <span>Manage your weekly tasks</span>
             <div id="app-store-wrapper">
-              <a href="https://apps.apple.com/app/id1528859917">
+              <a href="https://apps.apple.com/app/id1528859917?utm_source=genau-landing&utm_medium=genau-landing&utm_campaign=genau-landing">
                 <img
                   class="app-store-icon"
                   src="assets/images/app-store/apple.png"
                 />
               </a>
               <a
-                href="http://play.google.com/store/apps/details?id=com.thegenau.noteCircle"
+                href="http://play.google.com/store/apps/details?id=com.thegenau.noteCircle&utm_source=genau-landing&utm_medium=genau-landing&utm_campaign=genau-landing"
               >
                 <img
                   class="app-store-icon playstore"
@@ -122,7 +124,7 @@
             />
           </button>
           <div>
-            <h5>Dday Circle</h5>
+            <h5>DayCircle</h5>
             <span>Beautiful design day counter</span>
           </div>
         </li>
@@ -154,4 +156,5 @@
       </ul>
     </section>
   </body>
+  <footer>© 2021 GenauStudio. All rights reserved.</footer>
 </html>
