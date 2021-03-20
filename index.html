@@ -1,88 +1,129 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+    />
     <title>Genau Studio</title>
-    <link rel="icon"
-      type="image/png"
-      href="assets/images/studio.png">
-    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="icon" type="image/png" href="assets/images/studio.png" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
     <meta property="og:title" content="Genau Studio" />
-    <meta property="og:description" content="A design agency with exact sensibility. " />
+    <meta
+      property="og:description"
+      content="A design agency with exact sensibility. "
+    />
     <meta property="og:image" content="assets/images/studio.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8LRSGJC9Z"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T8LRSGJC9Z"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-T8LRSGJC9Z');
+      gtag("config", "G-T8LRSGJC9Z");
     </script>
     <script>
-      function openAppStore(path){
+      function openAppStore(path) {
         var url;
-        var host = "apps.apple.com/app/"
-        if(/iphone/.test(navigator.userAgent)) {
-          url = "itms-apps://"+ host + path
-        }else{
-          url = "https://"+ host + path
+        var host = "apps.apple.com/app/";
+        if (/iphone/.test(navigator.userAgent)) {
+          url = "itms-apps://" + host + path;
+        } else {
+          url = "https://" + host + path;
         }
-        var win = window.open(url, '_blank');
+        var win = window.open(url, "_blank");
         win.focus();
       }
     </script>
   </head>
   <body>
-      <div class="genau-studio"> Genau Studio </div>
-      <div id="mark"></div>
-      <h1 class="desktop">We create <br/>
-        digital services <br/>
-        with beautiful design <br/>
-        and seamless UX design</h1>
-      <h1 class="mobile">
-        We create digital services with beautiful design and seamless UX design
-      </h1>
-      <p id="contact">
-        Contact us with your idea <br/>
-        <a href="mailto:contact@thegenau.com" target="blank">
-          contact@thegenau.com
-        </a>
-      </p>
+    <div class="genau-studio">Genau Studio</div>
+    <div id="mark"></div>
+    <h1 class="desktop">
+      We create <br />
+      digital services <br />
+      with beautiful design <br />
+      and seamless UX design
+    </h1>
+    <h1 class="mobile">
+      We create digital services with beautiful design and seamless UX design
+    </h1>
+    <p id="contact">
+      Contact us with your idea <br />
+      <a href="mailto:contact@thegenau.com" target="blank">
+        contact@thegenau.com
+      </a>
+    </p>
 
-      <section>
+    <section>
       <ul class="apps">
         <li class="app-item">
           <button onclick="openAppStore('id1528859917')">
-            <img src="assets/images/app-icon/note-circle.png" srcset="assets/images/app-icon/note-circle@2x.png 2x, assets/images/app-icon/note-circle@3x.png 3x">
+            <img
+              src="assets/images/app-icon/note-circle.png"
+              srcset="
+                assets/images/app-icon/note-circle@2x.png 2x,
+                assets/images/app-icon/note-circle@3x.png 3x
+              "
+            />
           </button>
           <div>
             <h5>Note Circle</h5>
             <span>Manage your weekly tasks</span>
             <div id="app-store-wrapper">
               <a href="https://apps.apple.com/app/id1528859917">
-                <img class="app-store-icon"src="assets/images/app-store/apple.png"/>
+                <img
+                  class="app-store-icon"
+                  src="assets/images/app-store/apple.png"
+                />
               </a>
-              <a href="http://play.google.com/store/apps/details?id=com.thegenau.noteCircle">
-                <img class="app-store-icon playstore" src="assets/images/app-store/playstore.png"/>
+              <a
+                href="http://play.google.com/store/apps/details?id=com.thegenau.noteCircle"
+              >
+                <img
+                  class="app-store-icon playstore"
+                  src="assets/images/app-store/playstore.png"
+                />
               </a>
             </div>
           </div>
         </li>
         <li class="app-item">
-          <button onclick="openAppStore('id1512838461')"><img src="assets/images/app-icon/dday.png" srcset="assets/images/app-icon/dday@2x.png 2x, assets/images/app-icon/dday@3x.png 3x"></button>
+          <button onclick="openAppStore('id1548530016')">
+            <img
+              src="assets/images/app-icon/habitnote.png"
+              srcset="
+                assets/images/app-icon/habitnote@2x.png 2x,
+                assets/images/app-icon/habitnote@3x.png 3x
+              "
+            />
+          </button>
           <div>
-            <h5>Dday Circle</h5>
-            <span>Beautiful design day counter</span>
+            <h5>HabitNote</h5>
+            <span>Make habits that stick</span>
           </div>
         </li>
         <li class="app-item">
-          <button onclick="openAppStore('id1523486375')"><img src="assets/images/app-icon/mindtree.png" srcset="assets/images/app-icon/mindtree@2x.png 2x, assets/images/app-icon/mindtree@3x.png 3x"></button>
+          <button onclick="openAppStore('id1512838461')">
+            <img
+              src="assets/images/app-icon/dday.png"
+              srcset="
+                assets/images/app-icon/dday@2x.png 2x,
+                assets/images/app-icon/dday@3x.png 3x
+              "
+            />
+          </button>
           <div>
-            <h5>Mind Tree</h5>
-            <span>Set small habits for your happiness</span>
+            <h5>Dday Circle</h5>
+            <span>Beautiful design day counter</span>
           </div>
         </li>
       </ul>
@@ -112,6 +153,5 @@
         </li>
       </ul>
     </section>
-
   </body>
 </html>
