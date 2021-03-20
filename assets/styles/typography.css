@@ -4,7 +4,7 @@
     color: var(--white-two);
 }
 
-.apps h5{
+.apps h5, #social a{
     font-family: "SFProDisplay-Bold";
     font-size: 0.938rem;
     line-height: 1.93;

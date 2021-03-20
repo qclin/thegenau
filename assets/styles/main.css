@@ -17,7 +17,7 @@ ul.apps{
   margin-top: 3.438rem;
 }
 
-ul.apps li div{
+ul.apps li div,  ul#social li, .bullet{
   display: inline-block;
 }
 
@@ -58,7 +58,17 @@ a{
   color: #fff;
   text-decoration: none;
 }
+
+ul#social a{
+  text-decoration: underline;
+}
 .desktop{
+  display: none;
+}
+
+.bullet{
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: none;
 }
 
@@ -84,6 +94,9 @@ a{
 
   .mobile{
     display: none;
+  }
+  .bullet{
+    display: inline;
   }
 }
 
